@@ -7,7 +7,7 @@ var closeStrings = function (word1, word2) {
     // 1) check length of two words
     if (word1.length !== word2.length)
         return false;
-
+    
     var obj1 = {};
     [...word1].forEach(c => {
         if (obj1[c]) {
@@ -27,6 +27,7 @@ var closeStrings = function (word1, word2) {
         }
     });
 
+    // 2) check unique character is the same
     var s1 = Object.keys(obj1);
     var s2 = Object.keys(obj2);
     if (s1.length !== s2.length) {
@@ -39,13 +40,11 @@ var closeStrings = function (word1, word2) {
             return false;
         }
     }
+    // 3) check each character's count is the same
     var a1 = Object.values(obj1);
     var a2 = Object.values(obj2);
     a1.sort((a, b) => a - b);
     a2.sort((a, b) => a - b);
-    // console.log(a1);
-    // console.log(a2);
-
     for (let i = 0; i < a1.length; i++) {
         if (a1[i] !== a2[i]) {
             return false;
