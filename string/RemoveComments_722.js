@@ -78,3 +78,17 @@ const processOneLine = (s) => {
     }
   } // end processing one line
 };
+
+/**
+ * Solution 2: Regex in Javascript
+ */
+/**
+ * @param {string[]} source
+ * @return {string[]}
+ */
+var removeComments = function (source) {
+  let s = source.join("#") + "#";
+  s = s.replaceAll(/\/\/.*?(?=#)|\/\*.*?\*\//g, "").split("#");
+  s = s.filter((str) => str.length > 0);
+  return s;
+};
