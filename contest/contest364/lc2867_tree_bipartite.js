@@ -1,4 +1,6 @@
 /**
+ * 2867. Count Valid Paths in a Tree
+ * Referenced solution: https://leetcode.com/problems/count-valid-paths-in-a-tree/solutions/4082791/python3-dsu/
  * https://leetcode.com/problems/count-valid-paths-in-a-tree/description/
  * @param {number} n
  * @param {number[][]} edges
