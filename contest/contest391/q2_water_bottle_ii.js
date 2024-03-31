@@ -1,5 +1,6 @@
 /**
- * 100235. Water Bottles II
+ * 3100. Water Bottles II
+ * https://leetcode.com/problems/water-bottles-ii/solutions/4950100/easy-direct-way/
  * @param {number} numBottles
  * @param {number} numExchange
  * @return {number}

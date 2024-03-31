@@ -1,3 +1,8 @@
+/**
+ * 3101. Count Alternating Subarrays
+ * @param {https://leetcode.com/problems/count-alternating-subarrays/solutions/4950091/js-use-math-to-count-number-of-subarray/} nums
+ * @returns
+ */
 var countAlternatingSubarrays = function (nums) {
   let ans = 0;
   let start = 0;
