@@ -1,4 +1,5 @@
 /**
+ * 3133. Minimum  Array End
  * referenced idea: https://leetcode.com/problems/minimum-array-end/solutions/5082038/js/
  * @param {number} n
  * @param {number} x
