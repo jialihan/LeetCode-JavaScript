@@ -1,5 +1,5 @@
 /**
- *  * 3122. Minimum Number of Operations to Satisfy Conditions
+ * 3122. Minimum Number of Operations to Satisfy Conditions
  * referenced solution: https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/solutions/5052516/compress-2d-vector-into-1d-and-apply-dp-simple-solution/
  * referenced solution2: https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/solutions/5052486/dp-monster-style/
  * @param {number[][]} grid
