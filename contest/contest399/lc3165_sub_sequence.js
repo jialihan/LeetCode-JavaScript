@@ -1,5 +1,6 @@
 /**
  * BruteForce - TLE
+ * TODO: correct way is to use Segment tree.
  * https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/
  * @param {number[]} nums
  * @param {number[][]} queries
