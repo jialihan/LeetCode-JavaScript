@@ -43,9 +43,9 @@ function getUndirectedGraphDiameter(edges) {
     }
   }
   dfs(0, 0, new Set());
-  console.log("bestNode:", bestNode);
+  //   console.log("bestNode:", bestNode);
   dfs(bestNode, 0, new Set());
-  console.log("bestNode:", bestNode);
-  console.log("maxDist:", maxDist);
+  //   console.log("bestNode:", bestNode);
+  //   console.log("maxDist:", maxDist);
   return maxDist;
 }
