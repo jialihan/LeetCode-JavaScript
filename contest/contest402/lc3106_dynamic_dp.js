@@ -1,4 +1,6 @@
 /**
+ * 3186. Maximum Total Damage With Spell Casting
+ * https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/
  * @param {number[]} power
  * @return {number}
  */
@@ -13,6 +15,7 @@ var maximumTotalDamage = function (power) {
       dp[i + 1] = dp[i] + power[i];
     } else {
       while (power[j] < power[i] - 2) {
+        // find all the previous best value when j also is casted.
         preMax = Math.max(preMax, dp[++j]);
       }
       dp[i + 1] = power[i] + preMax;
