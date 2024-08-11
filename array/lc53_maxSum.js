@@ -1,3 +1,5 @@
+// divide and conquer
+// https://leetcode.com/problems/maximum-subarray/description/
 var maxSubArray = function (nums) {
   let max = -Infinity;
   let sum = 0;
